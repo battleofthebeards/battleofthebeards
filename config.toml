@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://battleofthebeards.info"
+baseurl = "http://battleofthebeards.info/"
 languageCode = "en-gb"
 title = "Battle of the Beards"
 theme = "hugo-agency-theme"
