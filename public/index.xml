@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Battle of the Beards</title>
+    <link>http://battleofthebeards.info/index.xml</link>
+    <description>Recent content on Battle of the Beards</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <atom:link href="http://battleofthebeards.info/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

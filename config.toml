@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "http://battleofthebeards.info"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Battle of the Beards"
 theme = "hugo-agency-theme"
 
@@ -18,7 +18,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Battle of the Beards"
-  description = "A fun, beardy way of enjoying some tech talks and raising awareness of male suicide"
+  description = "A fun day of tech talks and raising awareness of male suicide"
 
   # Since this template is static, the contact form uses www.formspree.io as a
   # proxy. The form makes a POST request to their servers to send the actual
@@ -31,10 +31,10 @@ googleAnalytics = ""
   # - send a dummy email yourself to confirm your account
   # - click the confirm link in the email from www.formspree.io
   # - you're done. Happy mailing!
-  email = "your@email.com"
+  email = "steph@itsalocke.com"
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = ["css/beardy.css"]
   custom_js  = []
 
   # Possibility to disable external/additional fonts
@@ -74,49 +74,53 @@ googleAnalytics = ""
       url = "http://gohugo.io"
       name = "Register"
       weight = 10
+    [[menu.postpend]]
+      url = "http://gohugo.io"
+      name = "Submit a talk"
+      weight = 15
 
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = "Join us for Battle of the Beards"
+    subtitle = "A Beardy showdown of epic proportion on March 30th, 2017"
     buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "About"
+    subtitle = "What's this Battle of the Beards thing?"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "For learning"
+      description = "Great talks on a variety of IT topics during the day"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "For good"
+      description = "All funds raised over the costs of the event go to [CALM](https://www.thecalmzone.net/), the Campaign Against Living Miserably"
 
     [[params.services.row.list]]
       icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "For fun"
+      description = "A nerd Bring-and-Buy, big screen gaming, pool, and happy hour in the evening"
 
   # Portfolio section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Talks"
+    subtitle = "Here are the confirmed talks happening on the day"
 
     [params.portfolio.modal]
       client = "Client"
@@ -128,51 +132,51 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "The plan"
+    subtitle = "Here's what's happening"
+    endpoint = "Join us"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Now"
+      title = "Open for talks"
+      description = 'Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! <a href="//gohugo.io">Send in you talk now</a>'
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "January 15, 2017"
+      title = "Registration opens"
+      description = "You'll be able to register for the event from the 15th of January. It costs £15 to cover the costs for you during the day. You can pay as much as you like above £15, and all proceeds go to CALM"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "February 15-21, 2017"
+      title = "Talks selected"
+      description = "We will select talks and announce the agenda"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "March 30, 2017"
+      title = "BATTLE OF THE BEARDS"
+      description = "Battle of the Beards commences from 8:30am at the Bier Keller in Cardiff"
 
 
   # Team section
   [params.team]
     enable = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Key people"
+    subtitle = "A selection of the people helping this succeed!"
+    description = "Organisers, speakers, and people donating a lot to the event are here."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
+      name = "Steph Locke"
+      position = "Organiser"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -181,8 +185,8 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      name = "Jeremey North"
+      position = "Organiser"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -191,8 +195,8 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      name = "David Parr"
+      position = "Organiser"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -201,7 +205,7 @@ googleAnalytics = ""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
 
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
@@ -224,7 +228,7 @@ googleAnalytics = ""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"

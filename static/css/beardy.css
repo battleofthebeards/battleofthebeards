@@ -1,0 +1,10 @@
+header {
+    color: #fed136;
+	}
+.navbar-default .nav li a {
+    color: #fed136;
+	}
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+    color: #4FFEDF;
+	
+}
