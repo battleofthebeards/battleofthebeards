@@ -85,7 +85,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Join us for Battle of the Beards"
-    subtitle = "A Beardy showdown of epic proportion on March 30th, 2017"
+    subtitle = "A Beardy showdown of epic proportions on March 30th, 2017"
     buttonText = "Tell me more"
 
 
