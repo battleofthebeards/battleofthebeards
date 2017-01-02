@@ -70,12 +70,12 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "Register"
+    # weight = 10
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "Register"
-      weight = 10
-    [[menu.postpend]]
-      url = "http://gohugo.io"
+      url = "https://steph210.typeform.com/to/SfzckS"
       name = "Submit a talk"
       weight = 15
 
@@ -143,7 +143,7 @@ googleAnalytics = ""
       img = "1.jpg"
       date = "Now"
       title = "Open for talks"
-      description = 'Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! <a href="//gohugo.io">Send in you talk now</a>'
+      description = 'Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! <a href="https://steph210.typeform.com/to/SfzckS">Enter the Battle of the Beards!</a>'
 
     [[params.about.events]]
       img = "2.jpg"
