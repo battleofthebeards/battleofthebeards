@@ -56,7 +56,7 @@ googleAnalytics = ""
     services = "About"
     portfolio = "Talks"
     about = "The plan"
-    team = "Speakers"
+    team = "People"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -135,6 +135,7 @@ googleAnalytics = ""
     title = "The plan"
     subtitle = "Here's what's happening"
     endpoint = "Join us"
+	endpointurl ="#"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -174,13 +175,13 @@ googleAnalytics = ""
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     [[params.team.members]]
-      img = "1.jpg"
+      img = "StephLocke.jpg"
       name = "Steph Locke"
       position = "Organiser"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "//twitter.com/stefflocke"],
+        ["fa-github", "//github.com/stephlocke"],
+        ["fa-linkedin", "//uk.linkedin.com/in/stephanielocke"]
       ]
 
     [[params.team.members]]
