@@ -160,13 +160,13 @@ googleAnalytics = ""
       img = "1.jpg"
       date = "Now"
       title = "Open for talks"
-      description = 'Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! <a href="https://steph210.typeform.com/to/SfzckS">Enter the Battle of the Beards!</a>'
+      description = "Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! [Enter the Battle of the Beards!](https://steph210.typeform.com/to/SfzckS)"
 
     [[params.about.events]]
       img = "2.jpg"
       date = "January 15, 2017"
       title = "Registration opens"
-      description = "You'll be able to register for the event from the 15th of January. It costs £15 to cover the costs for you during the day. You can pay as much as you like above £15, and all proceeds go to CALM"
+      description = "You'll be able to register for the event from the 15th of January. It costs £15 to cover the costs for you during the day. You can pay as much as you like above £15, and all proceeds go to [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/)"
 
     [[params.about.events]]
       img = "3.jpg"
@@ -176,9 +176,9 @@ googleAnalytics = ""
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "March 30, 2017"
+      date = "March 29, 2017"
       title = "BATTLE OF THE BEARDS"
-      description = "Battle of the Beards commences from 8:30am at the Bier Keller in Cardiff"
+      description = "Battle of the Beards commences from 8:30am at the [Bierkeller](http://thebierkeller.com/cardiff/)"
 
 
   # Team section
