@@ -1,3 +1,4 @@
+/* Colours work */
 header {
     color: #fe8c17;
 	}
@@ -115,6 +116,7 @@ body {
     webkit-tap-highlight-color: #fe8c17;
 }
 
+/* Font work */
 h1,
 h2,
 h3,
@@ -186,4 +188,50 @@ section h3.section-subheading {
 
 .portfolio-modal .modal-content p.item-intro {
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Static pages */
+staticheader {
+    text-align: center;
+    color: #fe8c17;
+}
+staticheader .intro-text {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+staticheader .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+staticheader .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+@media(min-width:768px) {
+    staticheader .intro-text {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    staticheader .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+static .staticbody {
+    padding: 0 50px 0 50px;
 }

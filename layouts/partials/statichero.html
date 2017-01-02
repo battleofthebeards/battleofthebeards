@@ -1,0 +1,9 @@
+{{ "<!-- Hero -->" | safeHTML }}
+<staticheader>
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-heading">{{ with .Title }}{{ . | markdownify }}{{ end }}</div>
+    </div>
+  </div>
+</staticheader>
+{{ "<!-- Services Section -->" | safeHTML }}
