@@ -85,7 +85,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Join us for Battle of the Beards"
-    subtitle = "A Beardy showdown of epic proportions on March 30th, 2017"
+    subtitle = "A Beardy showdown of epic proportions on March 29th, 2017"
     buttonText = "Tell me more"
 
 
@@ -98,19 +98,35 @@ googleAnalytics = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "For learning"
-      description = "Great talks on a variety of IT topics during the day"
+      icon = "fa-clock-o"
+      title = "29 March 2017"
+      description = "Battle of the Beards takes place on March 29th, doors opening at 8:30am"
+	  
+    [[params.services.row.list]]
+      icon = "fa-map-marker"
+      title = "Beard-Keller"
+      description = "Battle of the Beards will be fought at the [Bierkeller](http://thebierkeller.com/cardiff/)"
+	  
+    [[params.services.row.list]]
+      icon = "fa-gbp"
+      title = "Low cost"
+      description = "Tickets will be a minimum of £15, with pay-as-you-like above that going to charity"
+	  
+    [[params.services.row.list]]
+      icon = "fa-graduation-cap"
+      title = "Learning"
+      description = "Talks are half an hour long and will suit a wide audience. There'll be nifty case studies, introductions to languages, general computing talks around security, ethics, design patterns etc, and so on"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "For good"
-      description = "All funds raised over the costs of the event go to [CALM](https://www.thecalmzone.net/), the Campaign Against Living Miserably"
+      icon = "fa-heart"
+      title = "Doing good"
+      description = "Suicide disproportionately affects men. We'd like to help tackle it, and any funds raised over the cost of the event will go to [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/), a male suicide awareness and prevention charity"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "For fun"
-      description = "A nerd Bring-and-Buy, big screen gaming, pool, and happy hour in the evening"
+      icon = "fa-group"
+      title = "Lots of fun"
+      description = "As well as great talks, we're going to have some beardy fun. Nerd Bring-and-Buy, big screen gaming, pool, happy hour in the evening, and more"
+
 
   # Portfolio section
   [params.portfolio]
