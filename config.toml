@@ -197,7 +197,7 @@ googleAnalytics = ""
       social = [
         ["fa-twitter", "//twitter.com/stefflocke"],
         ["fa-github", "//github.com/stephlocke"],
-        ["fa-linkedin", "//uk.linkedin.com/in/stephanielocke"]
+        ["fa-home", "//itsalocke.com"]
       ]
 
     [[params.team.members]]
@@ -211,13 +211,13 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "3.jpg"
+      img = "DaveParr.jpg"
       name = "David Parr"
       position = "Organiser"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "//twitter.com/biomicron"],
+        ["fa-github", "//github.com/davergp"],
+        ["fa-home", "//davergp.github.io"]
       ]
 
   # Client section
