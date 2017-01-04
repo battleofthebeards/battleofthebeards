@@ -200,15 +200,15 @@ googleAnalytics = ""
         ["fa-home", "//itsalocke.com"]
       ]
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Jeremey North"
-      position = "Organiser"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    #[[params.team.members]]
+    #  img = "2.jpg"
+    #  name = "Jeremey North"
+    #  position = "Organiser"
+    #  social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
 
     [[params.team.members]]
       img = "DaveParr.jpg"
