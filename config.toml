@@ -114,13 +114,13 @@ googleAnalytics = ""
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
-      title = "Learning"
-      description = "Talks are half an hour long and will suit a wide audience. There'll be nifty case studies, introductions to languages, general computing talks around security, ethics, design patterns etc, and so on"
+      title = "Informative"
+      description = "There'll be nifty case studies, introductions to languages, general computing talks around security, ethics, design patterns etc, and so on"
 
     [[params.services.row.list]]
       icon = "fa-heart"
       title = "Doing good"
-      description = "Suicide disproportionately affects men. We'd like to help tackle it, and any funds raised over the cost of the event will go to [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/), a male suicide awareness and prevention charity"
+      description = "Suicide disproportionately affects men. Any funds raised over the cost of the event will go to [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/), a male suicide awareness and prevention charity"
 
     [[params.services.row.list]]
       icon = "fa-group"
@@ -186,7 +186,7 @@ googleAnalytics = ""
     enable = true
     title = "Key people"
     subtitle = "A selection of the people helping this succeed!"
-    description = "Organisers, speakers, and people donating a lot to the event are here."
+    description = "Organisers, speakers, and donors."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
