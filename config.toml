@@ -200,16 +200,6 @@ googleAnalytics = ""
         ["fa-home", "//itsalocke.com"]
       ]
 
-    #[[params.team.members]]
-    #  img = "2.jpg"
-    #  name = "Jeremey North"
-    #  position = "Organiser"
-    #  social = [
-    #    ["fa-twitter", "#"],
-    #    ["fa-facebook", "#"],
-    #    ["fa-linkedin", "#"]
-    #  ]
-
     [[params.team.members]]
       img = "DaveParr.jpg"
       name = "David Parr"
@@ -220,6 +210,15 @@ googleAnalytics = ""
         ["fa-home", "//davergp.github.io"]
       ]
 
+    [[params.team.members]]
+      img = "jem.jpg"
+      name = "Jeremey North"
+      position = "Organiser"
+      social = [
+        ["fa-twitter", "//twitter.com/jemnorth"],
+        ["fa-home", "//datris.solutions"]
+      ]
+
   # Client section
     [params.clients_list]
       enable = false
@@ -227,8 +226,8 @@ googleAnalytics = ""
       # All the clients' logos are stored under 'static/img/logos'.
       # Replace them with your clients's logos.
       [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+        logo = "itsalocke.jpg"
+        link = "//itsalocke.com"
 
       [[params.clients]]
         logo = "designmodo.jpg"
