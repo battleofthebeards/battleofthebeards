@@ -93,7 +93,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "About"
-    subtitle = "What's this Battle of the Beards thing?"
+    subtitle = "Battle of the Beards is a tech conference making a difference. <br>Spend the day learning about different areas of IT, spend the evening having fun, and spend a little bit of cash to help a male suicide charity."
 
     [[params.services.row]]
 
