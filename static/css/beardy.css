@@ -68,8 +68,9 @@ fieldset[disabled] .btn-xl.active {
     color: #fe8c17;
 }
 .navbar-default .navbar-brand {
-    font-family: "Press Start 2P","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,cursive;
     color: #fe8c17;
+    text-transform: uppercase;
 }
 .navbar-default .navbar-toggle {
     border-color: #fe8c17;
