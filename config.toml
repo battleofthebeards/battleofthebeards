@@ -191,7 +191,7 @@ googleAnalytics = ""
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     [[params.team.members]]
-      img = "StephLocke.jpg"
+      img = "BeardedSteph.png"
       name = "Steph Locke"
       position = "Organiser"
       social = [
