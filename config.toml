@@ -225,7 +225,7 @@ googleAnalytics = ""
 	  
 	  [[params.team.members]]
       img = "nopicavail.jpg"
-      name = "Fountainhead Tech"
+      name = "Fountainhead Technologies"
       position = "Donor"
       social = [
         ["fa-home", "//fountainhead.tech"]
