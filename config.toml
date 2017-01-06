@@ -18,7 +18,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Battle of the Beards"
-  description = "A fun day of tech talks and raising awareness of male suicide"
+  description = "A fun day of tech talks and raising awareness of male suicide. Spectators don't need beards!"
 
   # Since this template is static, the contact form uses www.formspree.io as a
   # proxy. The form makes a POST request to their servers to send the actual
@@ -93,7 +93,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "About"
-    subtitle = "Battle of the Beards is a tech conference making a difference. <br>Spend the day learning about different areas of IT, spend the evening having fun, and spend a little bit of cash to help a male suicide charity."
+    subtitle = "Battle of the Beards is a tech conference making a difference. <br>Spend the day learning about different areas of IT, spend the evening having fun, and spend a little bit of cash to help a male suicide charity.<br><br>Beards are not a requirement to come along for the day!"
 
     [[params.services.row]]
 
