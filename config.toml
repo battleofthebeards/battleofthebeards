@@ -222,7 +222,22 @@ googleAnalytics = ""
         ["fa-twitter", "//twitter.com/jemnorth"],
         ["fa-home", "//datris.solutions"]
       ]
-
+	  
+	  [[params.team.members]]
+      img = "nopicavail.jpg"
+      name = "Fountainhead Tech"
+      position = "Donor"
+      social = [
+        ["fa-home", "//fountainhead.tech"]
+      ]
+	  
+	  [[params.team.members]]
+      img = "datris-logo.png"
+      name = "Datris"
+      position = "Donor"
+      social = [
+        ["fa-home", "//datris.solutions"]
+      ]
   # Client section
     [params.clients_list]
       enable = false
