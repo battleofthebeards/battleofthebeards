@@ -78,6 +78,10 @@ googleAnalytics = ""
       url = "https://steph210.typeform.com/to/SfzckS"
       name = "Submit a talk"
       weight = 15
+    [[menu.postpend]]
+      url = "../codeofconduct"
+      name = "Code of Conduct"
+      weight = 20
 
 
   # Hero section
