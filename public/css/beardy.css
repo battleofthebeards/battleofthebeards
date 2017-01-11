@@ -236,3 +236,8 @@ staticheader .intro-text .intro-heading {
 static .staticbody {
     padding: 0 50px 0 50px;
 }
+
+/* Contact section */
+section#contact {
+    background-color: #fe8c17;
+}

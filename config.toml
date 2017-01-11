@@ -57,7 +57,7 @@ googleAnalytics = "UA-89910766-1"
     portfolio = "Talks"
     about = "The plan"
     team = "People"
-    contact = "Contact"
+    contact = "Get involved"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -189,8 +189,8 @@ googleAnalytics = "UA-89910766-1"
   [params.team]
     enable = true
     title = "Key people"
-    subtitle = "A selection of the people helping this succeed!"
-    description = "Organisers, speakers, and donors."
+    subtitle = "People contributing to make Battle of the Beards, and our fight against male suicide, a success!"
+    description = "You can get involved too, whether it's by attending, contributing your skills, helping out on the day, or just plain old donating to CALM. You can help us prevent the single biggest killer of young an dmiddle-aged men."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -207,7 +207,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.team.members]]
       img = "DaveParr.jpg"
       name = "David Parr"
-      position = "Organiser"
+      position = "Donating time"
       social = [
         ["fa-twitter", "//twitter.com/biomicron"],
         ["fa-github", "//github.com/davergp"],
@@ -217,7 +217,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.team.members]]
       img = "jem.jpg"
       name = "Jeremey North"
-      position = "Organiser"
+      position = "Donating time"
       social = [
         ["fa-twitter", "//twitter.com/jemnorth"],
         ["fa-home", "//datris.solutions"]
@@ -226,7 +226,7 @@ googleAnalytics = "UA-89910766-1"
 	  [[params.team.members]]
       img = "nopicavail.jpg"
       name = "Fountainhead Technologies"
-      position = "Donor"
+      position = "Donating"
       social = [
         ["fa-home", "//fountainhead.tech"]
       ]
@@ -234,9 +234,19 @@ googleAnalytics = "UA-89910766-1"
 	  [[params.team.members]]
       img = "datris-logo.png"
       name = "Datris"
-      position = "Donor"
+      position = "Donating"
       social = [
         ["fa-home", "//datris.solutions"]
+      ]
+	  
+	  
+	  [[params.team.members]]
+      img = "mikeodlin.jpg"
+      name = "Mike Odlin"
+      position = "Donating time"
+      social = [
+        ["fa-twitter", "//twitter.com/mikeodlin"],
+        ["fa-home", "//wordraising.co.uk"]
       ]
   # Client section
     [params.clients_list]
@@ -263,9 +273,9 @@ googleAnalytics = "UA-89910766-1"
 
   # Contact section
   [params.contact]
-    enable = false
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    enable = true
+    title = "Get involved"
+    subtitle  = "Want to donate your time or some funds to the event?"
     buttonText = "Send message"
 
     # 'warning' defines error messages for invalid inputs
@@ -277,13 +287,9 @@ googleAnalytics = "UA-89910766-1"
       text = "Your Email *"
       warning = "Please enter your email address."
 
-    [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
-
     [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+      text = "How would you like to get involved? *"
+      warning = "Please tell us how you want to help"
 
 
   # Footer section
