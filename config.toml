@@ -75,7 +75,7 @@ googleAnalytics = "UA-89910766-1"
     #  name = "Register"
     # weight = 10
     [[menu.postpend]]
-      url = "https://steph210.typeform.com/to/SfzckS"
+      url = "http://sessionize.com/battleofthebeards"
       name = "Submit a talk"
       weight = 15
     [[menu.postpend]]
@@ -165,7 +165,7 @@ googleAnalytics = "UA-89910766-1"
       img = "1.jpg"
       date = "Now"
       title = "Open for talks"
-      description = "Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! [Enter the Battle of the Beards!](https://steph210.typeform.com/to/SfzckS)"
+      description = "Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! [Enter the Battle of the Beards!](//sessionize.com/battleofthebeards)"
 
     [[params.about.events]]
       img = "2.jpg"
