@@ -258,6 +258,17 @@ googleAnalytics = "UA-89910766-1"
         ["fa-home", "//pilipalaagencyweb.wordpress.com"],
 		["fa-instagram", "//instagram.com/pilipala.agency"]
       ]
+	  
+	  [[params.team.members]]
+      img = "matt.jpg"
+      name = "Matt McCabe"
+      position = "Donating time"
+      social = [
+        ["fa-twitter", "//twitter.com/mttmccb"],
+        ["fa-home", "//mttmccb.net/"],
+        ["fa-github", "//github.com/mttmccb"]
+      ]
+	  
   # Client section
     [params.clients_list]
       enable = false
