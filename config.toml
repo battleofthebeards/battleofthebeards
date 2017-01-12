@@ -97,7 +97,7 @@ googleAnalytics = "UA-89910766-1"
   [params.services]
     enable = true
     title = "About"
-    subtitle = "Battle of the Beards is a tech conference making a difference. <br>Spend the day learning about different areas of IT, spend the evening having fun, and spend a little bit of cash to help a male suicide charity.<br><br>Beards are not a requirement to come along for the day!"
+    subtitle = "Battle of the Beards started out as a fun user group event, where bristling techies would square off in an arena that looked rather suspiciously like a board room. Our Beardy Battlers would present their talks and winners would be decided on the quality of their beards and their talks. The crowd went wild!<br><br> We previously had three contenders but the crowd wanted more battling. Steph, the ring master, pledged a whole day of battling for 2017 and now here we are.<br><br> Sadly, in our male dominated industry, we're likely to be disproportionately affected by suicide. Suicide was the cause of a quarter of all deaths of 20 - 34 year old males in [2014](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/rel/vsob1/mortality-statistics--deaths-registered-in-england-and-wales--series-dr-/2014/sty-what-do-we-die-from.html). This is a very uncomfortable and incredibly sad fact.  <br><br> We need to take care of ourselves and each other. At Battle of the Beards we can have a fantastic day learning about different IT topics, meet nifty folks, and letting off a bit of steam. We can be sociable (yes, I know we're IT people) and have positive human interactions that make a difference in each other's lives.<br><br>We can also help people we haven't yet met. All proceeds, over covering costs, will go to the [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). Supporting CALM means they can provide vital counselling services and save lives.<br><br> So let's have some fun for a good cause!<br><br><br><br>*PS Beards are not a requirement to come along for the day or even to present*"
 
     [[params.services.row]]
 
@@ -109,27 +109,27 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-map-marker"
       title = "Beard-Keller"
-      description = "Battle of the Beards will be fought at the [Bierkeller](http://thebierkeller.com/cardiff/)"
+      description = "Battle of the Beards will be taking place at the [Bierkeller](http://thebierkeller.com/cardiff/)"
 	  
     [[params.services.row.list]]
       icon = "fa-gbp"
       title = "Low cost"
-      description = "Tickets will be a minimum of £15, with pay-as-you-like above that going to charity"
+      description = "Tickets will be £15, with the option to add a donation that will go to charity"
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Informative"
-      description = "There'll be nifty case studies, introductions to languages, general computing talks around security, ethics, design patterns etc, and so on"
+      description = "The talks will cover the breadth of IT, and perhaps beyond! All talks will be introductory or widely applicable to anyone in IT. There'll be nifty case studies, introductions to languages, general computing talks around security, ethics, design patterns etc, and so on"
 
     [[params.services.row.list]]
       icon = "fa-heart"
       title = "Doing good"
-      description = "Suicide disproportionately affects men. Any funds raised over the cost of the event will go to [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/), a male suicide awareness and prevention charity"
+      description = "Help combat the problem of male suicide. Attend for a good time, help others have a good time, and raise funds that will support the [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/), a male suicide awareness and prevention charity, in offering vital emergency counselling services to those in need"
 
     [[params.services.row.list]]
       icon = "fa-group"
       title = "Lots of fun"
-      description = "As well as great talks, we're going to have some beardy fun. Nerd Bring-and-Buy, big screen gaming, pool, happy hour in the evening, and more"
+      description = "As well as presentations in the main arena during the day, there'll be lots of side things going on throughout the day and into the evening including Nerd Bring'n'Buy, game tournaments, and more"
 
 
   # Portfolio section
@@ -190,7 +190,7 @@ googleAnalytics = "UA-89910766-1"
     enable = true
     title = "Key people"
     subtitle = "People contributing to make Battle of the Beards, and our fight against male suicide, a success!"
-    description = "You can get involved too, whether it's by attending, contributing your skills, helping out on the day, or just plain old donating to CALM. You can help us prevent the single biggest killer of young an dmiddle-aged men."
+    description = "You can get involved too, whether it's by attending, contributing your skills, helping out on the day, or just plain old donating to CALM. You can help us prevent the single biggest killer of young and middle-aged men."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
