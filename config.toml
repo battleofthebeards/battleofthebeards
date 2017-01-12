@@ -322,6 +322,10 @@ googleAnalytics = "UA-89910766-1"
     [[params.footer.social]]
       icon = "fa-twitter"
       link = "//twitter.com/battlingbeards"
+	  
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "//facebook.com/battlingbeards"
 
     [[params.footer.quicklinks]]
       text = "Code of Conduct"
