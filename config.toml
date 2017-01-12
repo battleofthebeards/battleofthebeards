@@ -239,8 +239,7 @@ googleAnalytics = "UA-89910766-1"
       social = [
         ["fa-home", "//datris.solutions"]
       ]
-	  
-	  
+	  	  
 	  [[params.team.members]]
       img = "mikeodlin.jpg"
       name = "Mike Odlin"
@@ -248,6 +247,16 @@ googleAnalytics = "UA-89910766-1"
       social = [
         ["fa-twitter", "//twitter.com/mikeodlin"],
         ["fa-home", "//wordraising.co.uk"]
+      ]
+	  
+	  [[params.team.members]]
+      img = "pilipala.jpg"
+      name = "Pili-pala"
+      position = "Donating time"
+      social = [
+        ["fa-twitter", "//twitter.com/pili_pala"],
+        ["fa-home", "//pilipalaagencyweb.wordpress.com"],
+		["fa-instagram", "//instagram.com/pilipala.agency"]
       ]
   # Client section
     [params.clients_list]
