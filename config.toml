@@ -134,19 +134,17 @@ googleAnalytics = "UA-89910766-1"
 
   # Portfolio section
   [params.portfolio]
-    enable = false
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Talks"
-    subtitle = "Here are the confirmed talks happening on the day"
+    title = "Submitted talks"
+    subtitle = "Here are some talks that have been submitted so far! You've still got time to [submit your own talk(s)](//sessionize.com/battleofthebeards)"
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+      client = "Title"
+      buttonText = "Back"
 
 
     # About section
