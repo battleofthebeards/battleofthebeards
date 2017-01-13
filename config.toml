@@ -57,7 +57,7 @@ googleAnalytics = "UA-89910766-1"
     portfolio = "Talks"
     about = "The plan"
     team = "People"
-    contact = "Get involved"
+    contact = "Help"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -76,17 +76,12 @@ googleAnalytics = "UA-89910766-1"
     # weight = 10
 	[[menu.postpend]]
 	  url="https://steph210.typeform.com/to/sq0GI4"
-	  name="Get a ticket"
+	  name="Get ticket"
 	  weight = 10
     [[menu.postpend]]
       url = "http://sessionize.com/battleofthebeards"
-      name = "Submit a talk"
+      name = "Submit talk"
       weight = 15
-    [[menu.postpend]]
-      url = "../codeofconduct"
-      name = "Code of Conduct"
-      weight = 20
-
 
   # Hero section
   [params.hero]
