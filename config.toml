@@ -18,7 +18,7 @@ googleAnalytics = "UA-89910766-1"
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Battle of the Beards"
-  description = "A fun day of tech talks and raising awareness of male suicide. Spectators don't need beards!"
+  description = "March 29, 2017: A fun day of tech talks @ the Cardiff Bierkeller and raising awareness of male suicide."
 
   # Since this template is static, the contact form uses www.formspree.io as a
   # proxy. The form makes a POST request to their servers to send the actual
@@ -103,7 +103,7 @@ googleAnalytics = "UA-89910766-1"
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "29 March 2017"
+      title = "March 29, 2017"
       description = "Battle of the Beards takes place on March 29th, doors opening at 8:30am"
 	  
     [[params.services.row.list]]
@@ -114,7 +114,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-gbp"
       title = "Low cost"
-      description = "[Tickets](//steph210.typeform.com/to/sq0GI4) are £15, with the option to add a donation that will go to charity. This covers food and refreshments throghout the day, plus the venue for the whole day and well into the evening"
+      description = "[Tickets](//steph210.typeform.com/to/sq0GI4) are £15 to cover food and drinks, with the option to add a donation"
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
