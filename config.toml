@@ -114,7 +114,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-gbp"
       title = "Low cost"
-      description = "Tickets will be £15, with the option to add a donation that will go to charity"
+      description = "[Tickets](//steph210.typeform.com/to/sq0GI4) are £15, with the option to add a donation that will go to charity. This covers food and refreshments throghout the day, plus the venue for the whole day and well into the evening"
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
