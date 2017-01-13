@@ -74,6 +74,10 @@ googleAnalytics = "UA-89910766-1"
     #  url = "http://gohugo.io"
     #  name = "Register"
     # weight = 10
+	[[menu.postpend]]
+	  url="https://steph210.typeform.com/to/sq0GI4"
+	  name="Get a ticket"
+	  weight = 10
     [[menu.postpend]]
       url = "http://sessionize.com/battleofthebeards"
       name = "Submit a talk"
@@ -163,15 +167,15 @@ googleAnalytics = "UA-89910766-1"
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "Now"
+      date = "January 1, 2017"
       title = "Open for talks"
       description = "Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! [Enter the Battle of the Beards!](//sessionize.com/battleofthebeards)"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "January 15, 2017"
+      date = "January 13, 2017"
       title = "Registration opens"
-      description = "You'll be able to register for the event from the 15th of January. It costs £15 to cover the costs for you during the day. You can pay as much as you like above £15, and all proceeds go to [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/)"
+      description = "Register for Battle of the Beards and make a difference! It's £15 to cover the costs for the event. You can also add a donation for [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). [Register now!](https://steph210.typeform.com/to/sq0GI4)"
 
     [[params.about.events]]
       img = "3.jpg"
@@ -330,3 +334,9 @@ googleAnalytics = "UA-89910766-1"
     [[params.footer.quicklinks]]
       text = "Code of Conduct"
       link = "codeofconduct"
+	[[params.footer.quicklinks]]
+	  link="https://steph210.typeform.com/to/sq0GI4"
+	  text="Registration"
+    [[params.footer.quicklinks]]
+      link = "http://sessionize.com/battleofthebeards"
+	  text="Talk submission"
