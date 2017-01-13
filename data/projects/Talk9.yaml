@@ -1,0 +1,10 @@
+modalID: 9
+title: "Using R to explore how likely we are to die during 2017"
+subtitle: .
+date: 2014-07-05
+img: roundicons.png
+preview: Minimal Beard White Square.png
+client: Paul Brennan
+clientLink: "#"
+category: Coding
+description: Whether we like it or not, we are all going to die. I would like to propose exploring rather than ignore this... I would like to use R to explore the likelihood of this happening during 2017. Some relevant factors include age, current health conditions and our lifestyle. By bringing these topics and relevant data together we can have a realistic version of what we should do during 2017 and learn a little about using R at the same time. I will attempt to make the topic funny...

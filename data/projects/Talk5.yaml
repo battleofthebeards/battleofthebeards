@@ -1,0 +1,10 @@
+modalID: 5
+title: Turn your Checklists into Pester Tests
+subtitle: .
+date: 2014-07-05
+img: roundicons.png
+preview: Minimal Beard White Square.png
+client: Rob Sewell
+clientLink: "#"
+category: Infrastructure
+description: I was required to prove that I had successfully installed and configured a backup solution across a large estate. I had a large number of success criteria that had to be met. Checking all of these by hand (eye) would have been error prone, so I wrote a test to do this for me and you can too.<br>The session has come from that situation and is about enabling you to provide an easy to read output to quickly and repeatedly show that infrastructure is as expected for a set of checks, also known as  Operational Validation using Pester. There are many use cases for this type of solution; DR testing, installation, first line checks, presentation setups<br>After this session you will have a basic understanding of how Pester works and the capability to examine your checklists, create your own validation tests without a hair out of place
