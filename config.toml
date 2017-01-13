@@ -109,7 +109,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-map-marker"
       title = "Beard-Keller"
-      description = "Battle of the Beards will be taking place at the [Bierkeller](http://thebierkeller.com/cardiff/)"
+      description = "Battle of the Beards will be taking place at the Cardiff [Bierkeller](http://thebierkeller.com/cardiff/)"
 	  
     [[params.services.row.list]]
       icon = "fa-gbp"
