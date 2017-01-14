@@ -4,10 +4,19 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">{{ with .Site.Params.services.title }}{{ . }}{{ end }}</h2>
-        <p>{{ .Site.Params.services.subtitle | markdownify }}<p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4  text-center">
+		<img class="beardybattlers" src="../img/beardybattlers.jpeg"/>
+		<a class="samaritans" href="https://social.shorthand.com/samaritans" title = "Samaritan's Suicide Statistics Report"><img src="https://shorthand-social.imgix.net/prod/story/3CcQEJ3s9Ec/media/a97b50701da111e68172cfb1db5e8826/original.jpg" alt="Infographic showing number of deaths in 2014 split out by geneder for the UK & RI"/></a>
 		<a class="calmlogo" href="//www.thecalmzone.net" title="Campaign Against Living Miserably"><img src="../img/IN_SUPPORT_MIDBLUE_RGB.png"/></a>
+		</div>
+		<div class="col-md-8">
+        <p>{{ .Site.Params.services.subtitle | markdownify }}<p>
+		</div>
+		
       </div>
-    </div>
     {{ range .Site.Params.services.row }}
       <div class="row text-center">
         {{ range .list }}
@@ -22,6 +31,9 @@
         {{ end }}
       </div>
     {{ end }}
+	<div class="row text-center">
+        <p class="ps">{{ .Site.Params.services.ps | markdownify }}<p>
+		</div>
 	
   </div>
 </section>

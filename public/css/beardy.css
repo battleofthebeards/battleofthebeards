@@ -241,3 +241,16 @@ static .staticbody {
 section#contact {
     background-color: #fe8c17;
 }
+
+/*beardy battlers */
+img{
+	max-width: 100%;
+    max-height: 100%;
+	align: center;
+	padding: 10px;
+}
+p.ps{
+	font-style: italic;
+	padding-top: 50px;
+	align: center;
+}
