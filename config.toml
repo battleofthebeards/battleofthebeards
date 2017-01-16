@@ -153,7 +153,7 @@ googleAnalytics = "UA-89910766-1"
     title = "The plan"
     subtitle = "Here's what's happening"
     endpoint = "Join us"
-	endpointurl ="#"
+	endpointurl ="https://battleofthebeards.typeform.com/to/sq0GI4"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
