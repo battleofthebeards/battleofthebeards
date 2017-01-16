@@ -1,7 +1,49 @@
 /* Colours work */
 header {
     color: #fe8c17;
+    background-position: center left;
 	}
+
+@media (min-width: 768px) {
+    .navbar-default {
+        background: rgba(13.3%, 13.3%, 13.3%, 0.6);
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-default.navbar-shrink {
+        padding: 5px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    header .intro-text .intro-lead-in {
+        font-size: 32px;
+        font-style: normal;
+        text-align: left;
+        text-shadow: 1px 1px #666;
+    }
+header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: left;
+}
+header .intro-text .intro-heading {
+    margin-bottom: 50px;
+    text-transform: none;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1em;
+    text-align: left;
+    text-shadow: 1px 1px #666;
+}
+}
+
+.intro-text .btn-xl {
+    box-shadow: 1px 1px 1px #666;
+}
+
 .navbar-default .nav li a {
     color: #fe8c17;
 	}
