@@ -75,7 +75,7 @@ googleAnalytics = "UA-89910766-1"
     #  name = "Register"
     # weight = 10
 	[[menu.postpend]]
-	  url="https://steph210.typeform.com/to/sq0GI4"
+	  url="https://battleofthebeards.typeform.com/to/sq0GI4"
 	  name="Get ticket"
 	  weight = 10
     [[menu.postpend]]
@@ -114,7 +114,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-gbp"
       title = "Low cost"
-      description = "[Tickets](//steph210.typeform.com/to/sq0GI4) are £15 to cover food and drinks, with the option to add a donation"
+      description = "[Tickets](//battleofthebeards.typeform.com/to/sq0GI4) are £15 to cover food and drinks, with the option to add a donation"
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
@@ -168,7 +168,7 @@ googleAnalytics = "UA-89910766-1"
       img = "2.jpg"
       date = "January 13, 2017"
       title = "Registration opens"
-      description = "Register for Battle of the Beards and make a difference! It's £15 to cover the costs for the event. You can also add a donation for [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). [Register now!](https://steph210.typeform.com/to/sq0GI4)"
+      description = "Register for Battle of the Beards and make a difference! It's £15 to cover the costs for the event. You can also add a donation for [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). [Register now!](https://battleofthebeards.typeform.com/to/sq0GI4)"
 
     [[params.about.events]]
       img = "3.jpg"
@@ -328,7 +328,7 @@ googleAnalytics = "UA-89910766-1"
       text = "Code of Conduct"
       link = "codeofconduct"
 	[[params.footer.quicklinks]]
-	  link="https://steph210.typeform.com/to/sq0GI4"
+	  link="https://battleofthebeards.typeform.com/to/sq0GI4"
 	  text="Registration"
     [[params.footer.quicklinks]]
       link = "http://sessionize.com/battleofthebeards"
