@@ -217,25 +217,33 @@ staticheader .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
-@media(min-width:768px) {
-    staticheader .intro-text {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
 
-    staticheader .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-    }
+staticheader .intro-text {
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+staticheader .intro-text .intro-heading {
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 75px;
+	font-weight: 700;
+	line-height: 75px;
 }
 
 static .staticbody {
     padding: 0 50px 0 50px;
 }
+
+/* Widths and paddings */
+@media(min-width: 768px) {
+    header .intro-text {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+}
+
 
 /* Contact section */
 section#contact {

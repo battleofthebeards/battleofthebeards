@@ -87,8 +87,8 @@ googleAnalytics = "UA-89910766-1"
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = 'Stop living miserably at "The Battle of the Beards"'
-    subtitle = "Join <br> IT peeps & managers <br> learning for a killer cause<br> 29th March 2017"
+    title = 'Fight male suicide at "The Battle of the Beards"'
+    subtitle = "Battle of the Beards<br>An IT day, changing lives<br> 29th March 2017<br> Cardiff"
     buttonText = "Tell me more"
 
 
