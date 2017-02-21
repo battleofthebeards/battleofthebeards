@@ -75,7 +75,7 @@ googleAnalytics = "UA-89910766-1"
     #  name = "Register"
     # weight = 10
 	[[menu.postpend]]
-	  url="https://battleofthebeards.typeform.com/to/sq0GI4"
+	  url="https://battleofthebeards.eventbrite.co.uk"
 	  name="Get ticket"
 	  weight = 10
     [[menu.postpend]]
@@ -114,7 +114,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-gbp"
       title = "Low cost"
-      description = "[Tickets](//battleofthebeards.typeform.com/to/sq0GI4) are £15 to cover food and drinks, with the option to add a donation"
+      description = "[Tickets](//battleofthebeards.eventbrite.co.uk) are £15 to cover food and drinks, with the option to add a donation"
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
@@ -153,7 +153,7 @@ googleAnalytics = "UA-89910766-1"
     title = "The plan"
     subtitle = "Here's what's happening"
     endpoint = "Join us"
-	endpointurl ="https://battleofthebeards.typeform.com/to/sq0GI4"
+	endpointurl ="https://battleofthebeards.eventbrite.co.uk"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -168,7 +168,7 @@ googleAnalytics = "UA-89910766-1"
       img = "2.jpg"
       date = "January 13, 2017"
       title = "Registration opens"
-      description = "Register for Battle of the Beards and make a difference! It's £15 to cover the costs for the event. You can also add a donation for [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). [Register now!](https://battleofthebeards.typeform.com/to/sq0GI4)"
+      description = "Register for Battle of the Beards and make a difference! It's £15 to cover the costs for the event. You can also add a donation for [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). [Register now!](https://battleofthebeards.eventbrite.co.uk)"
 
     [[params.about.events]]
       img = "3.jpg"
@@ -328,7 +328,7 @@ googleAnalytics = "UA-89910766-1"
       text = "Code of Conduct"
       link = "codeofconduct"
 	[[params.footer.quicklinks]]
-	  link="https://battleofthebeards.typeform.com/to/sq0GI4"
+	  link="https://battleofthebeards.eventbrite.co.uk"
 	  text="Registration"
     [[params.footer.quicklinks]]
       link = "http://sessionize.com/battleofthebeards"
