@@ -1,10 +1,10 @@
 modalID: 3
-title: "SmartOS : Solaris for the cloud"
+title: "Thinking Securely"
 subtitle: .
 date: 2014-07-05
 img: roundicons.png
-preview: Minimal Beard White Square.png
-client: Matt Wilsher
+preview: john-martin.jpeg
+client: John Martin
 clientLink: "#"
 category: Infrastructure
-description: Introduction to SmartOS, a modern cloud centric OS with a lineage tracing back through Solaris 10,  it's main components (ZFS, containers, VMs, Dtrace), use cases and how to get started with it.
+description: With more and more of us working remotely or on the road, it is important to think about security precautions. Here we will discuss things like where and how to work in public places. Also, looking at things you can do to help protect the information on your devices from prying eyes, both from a technical and non-technical perspective.jo

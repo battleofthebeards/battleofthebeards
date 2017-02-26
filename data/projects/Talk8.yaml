@@ -1,10 +1,10 @@
 modalID: 8
-title: A brief history of linting
+title: Jekyll and Hub
 subtitle: .
 date: 2014-07-05
 img: roundicons.png
-preview: Minimal Beard White Square Alt.png
-client: Matt McCabe
+preview: david-parr.jpeg
+client: David Parr
 clientLink: "#"
 category: Coding
-description: It's easy to get rid of pocket lint but letting your software become clogged up will slow you and it down. Linting is one tool to help prevent you tripping the well known obstacles, I'll walk through the concepts and how to apply them.
+description: GitHub has built increasing support for the Jekyll static blog generator system into it's platform. Starting with a brief introduction of the benefits of a free blogging and web hosting platform, the session will also be a walk through of how to set up a GitHub pages blog from scratch, including a brief step into liquid tags and YAML.
