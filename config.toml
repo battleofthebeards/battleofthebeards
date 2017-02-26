@@ -8,29 +8,9 @@ theme = "hugo-agency-theme"
 googleAnalytics = "UA-89910766-1"
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
   name = "Battle of the Beards"
-  description = "March 29, 2017: A fun day of tech talks @ the Cardiff Bierkeller and raising awareness of male suicide."
+  description = "29 March 2017: A fun day of tech talks @ the Cardiff Bierkeller and raising awareness of male suicide."
 
-  # Since this template is static, the contact form uses www.formspree.io as a
-  # proxy. The form makes a POST request to their servers to send the actual
-  # email. Visitors can send up to a 1000 emails each month for free.
-  #
-  # What you need to do for the setup?
-  #
-  # - set your email address under 'email' below
-  # - upload the generated site to your server
-  # - send a dummy email yourself to confirm your account
-  # - click the confirm link in the email from www.formspree.io
-  # - you're done. Happy mailing!
   email = "steph@itsalocke.com"
 
   # Link custom assets relative to /static
@@ -41,15 +21,6 @@ googleAnalytics = "UA-89910766-1"
   # Exception: Fontawesome
   disableFonts = false
 
-  # Optional piwik tracking
-  #[params.analytics.piwik]
-  #  URL = "https://stats.example.com"
-  #  ID = "42"
-  #  # Track all subdomains with "*.example.com"
-  #  domain = "www.example.com"
-  #  # Optional integrity check hash
-  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
-
   # Navigation
   [params.navigation]
     brand = "Battle of the Beards"
@@ -59,36 +30,17 @@ googleAnalytics = "UA-89910766-1"
     team = "People"
     contact = "Help"
 
-    # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
-
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "Register"
-    # weight = 10
 	[[menu.postpend]]
 	  url="https://battleofthebeards.eventbrite.co.uk"
 	  name="Get ticket"
 	  weight = 10
-    [[menu.postpend]]
-      url = "http://sessionize.com/battleofthebeards"
-      name = "Submit talk"
-      weight = 15
 
   # Hero section
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = 'Fight male suicide at "The Battle of the Beards"'
-    subtitle = "Talking tech & making a difference<br>Cardiff | March 29, 2017"
+    subtitle = "Talking tech & making a difference<br>Cardiff | 29 March 2017"
     buttonText = "Tell me more"
 
 
@@ -97,40 +49,39 @@ googleAnalytics = "UA-89910766-1"
     enable = true
     title = "About"
 
-    subtitle = "**The Battle of the Beards runs from 8.30am at the Bierkeller on March 29th, 2017.**<br><br>If you care about IT stuff and care about people too then get yourself there.<br><br>We're gonna have a fantastic day learning about different IT topics, meeting nifty folks, and letting off a bit of steam. We're gonna be sociable (yes, I know we’re IT people) and have positive human interactions that make a difference in each other’s lives.<br><br>Battle of the Beards started out as a fun user group event, where bristling techies would square off in our very own arena. Our Beardy Battlers would give presentations and winners would be decided based on the quality of their beards and their talks. The crowd went wild (and wanted more)! <br><br>Where our first events had a mere 3 contenders, this year we're upping the ante and there'll be at least 10 contenders! Whether their beard is permanent or just for the day, our Beardy Battlers will be delivering half-hour techie talks that'll be useful and engaging for anyone in IT. Every Beardy Battler will make a difference to your life.<br><br>If you come along you'll make a difference.<br><br>You'll make a difference in the room and to somebody you may never meet. That's because, after we've covered the costs, all proceeds will go to the [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). Supporting CALM means they can provide vital counselling services and save lives.<br><br>In our male dominated industry, we’re likely to be disproportionately affected by suicide. It was the cause of a quarter of all deaths of 20 - 34 year old males in [2014](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/rel/vsob1/mortality-statistics--deaths-registered-in-england-and-wales--series-dr-/2014/sty-what-do-we-die-from.html). That's a sad and uncomfortable fact. <br><br>We need to take care of ourselves and each other. <br><br>So let’s have some fun for a good cause!"
+    subtitle = "**If you care about IT stuff and people too then get yourself to The Battle of the Beards at Bierkeller on 29 March 2017 at 8:30am.**<br><br>We're gonna have a fantastic day learning about different IT topics, meeting nifty folks, and letting off a bit of steam. We're gonna be sociable (yes, I know we’re IT people) and have positive human interactions that make a difference in each other’s lives.<br><br>Battle of the Beards started out as a fun user group event, where bristling techies would square off in our very own arena. Our Beardy Battlers would give presentations and winners would be decided based on the quality of their beards and their talks. The crowd went wild (and wanted more)! <br><br>Where our first events had a mere 3 contenders, this year we're upping the ante and there'll be at least 10 contenders! Whether their beard is permanent or just for the day, our Beardy Battlers will be delivering half-hour techie talks that'll be useful and engaging for anyone in IT. Every Beardy Battler will make a difference to your life.<br><br>If you come along you'll make a difference.<br><br>You'll make a difference in the room and to somebody you may never meet. That's because, after we've covered the costs, all proceeds will go to the [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). Supporting CALM means they can provide vital counselling services and save lives.<br><br>In our male dominated industry, we’re likely to be disproportionately affected by suicide. It was the cause of a quarter of all deaths of 20 - 34 year old males in [2014](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/rel/vsob1/mortality-statistics--deaths-registered-in-england-and-wales--series-dr-/2014/sty-what-do-we-die-from.html). That's a sad and uncomfortable fact. <br><br>We need to take care of ourselves and each other. <br><br>So let’s have some fun for a good cause!"
     ps = "PS Beards are not an entry requirement! Whilst Bring your own Beard (BYOB) is nice, this is a day open to anyone who wants to learn and support a good cause."
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
-      title = "March 29, 2017"
-      description = "Battle of the Beards takes place on March 29th, doors opening at 8:30am"
+      title = "When?"
+      description = "29 March 2017, doors opening at 8:30am"
 	  
     [[params.services.row.list]]
       icon = "fa-map-marker"
-      title = "Beard-Keller"
-      description = "Battle of the Beards will be taking place at the Cardiff [Bierkeller](http://thebierkeller.com/cardiff/)"
+      title = "Where?"
+      description = "The event will be taking place at the Cardiff [Bierkeller](http://thebierkeller.com/cardiff/)"
 	  
     [[params.services.row.list]]
       icon = "fa-gbp"
       title = "Low cost"
-      description = "[Tickets](//battleofthebeards.eventbrite.co.uk) are £15 to cover food and drinks, with the option to add a donation"
+      description = "[Tickets](//battleofthebeards.eventbrite.co.uk) are £15 including food and drinks, with optional donations"
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Informative"
-      description = "The talks will cover the breadth of IT, and perhaps beyond! All talks will be introductory or widely applicable to anyone in IT. There'll be nifty case studies, introductions to languages, general computing talks around security, ethics, design patterns etc, and so on"
+      description = "The [talks](#portfolio) cover the breadth of IT, and are introductory or widely applicable to anyone in tech."
 
     [[params.services.row.list]]
       icon = "fa-heart"
       title = "Doing good"
-      description = "Help combat the problem of male suicide. Attend for a good time, help others have a good time, and raise funds that will support the [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/), a male suicide awareness and prevention charity, in offering vital emergency counselling services to those in need"
+      description = "Attend to have a good time together, and raise funds that will support the [CALM](https://www.thecalmzone.net/), a male suicide awareness and prevention charity, in offering vital emergency counselling services to those in need"
 
     [[params.services.row.list]]
       icon = "fa-group"
       title = "Lots of fun"
       description = "As well as presentations in the main arena during the day, there'll be lots of side things going on throughout the day and into the evening including Nerd Bring'n'Buy, game tournaments, and more"
-
 
   # Portfolio section
   [params.portfolio]
@@ -139,13 +90,12 @@ googleAnalytics = "UA-89910766-1"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Submitted talks"
-    subtitle = "Here are some talks that have been submitted so far! You've still got time to [submit your own talk(s)](//sessionize.com/battleofthebeards)"
+    title = "Speakers"
+    subtitle = "Meet our speakers"
 
     [params.portfolio.modal]
       client = "Title"
       buttonText = "Back"
-
 
     # About section
   [params.about]
@@ -160,25 +110,25 @@ googleAnalytics = "UA-89910766-1"
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "January 1, 2017"
+      date = "1 January 2017"
       title = "Open for talks"
       description = "Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! [Enter the Battle of the Beards!](//sessionize.com/battleofthebeards)"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "January 13, 2017"
+      date = "13 January  2017"
       title = "Registration opens"
       description = "Register for Battle of the Beards and make a difference! It's £15 to cover the costs for the event. You can also add a donation for [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). [Register now!](https://battleofthebeards.eventbrite.co.uk)"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "February 15-21, 2017"
+      date = "15-21 February 2017"
       title = "Talks selected"
       description = "We will select talks and announce the agenda"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "March 29, 2017"
+      date = "29 March 2017"
       title = "BATTLE OF THE BEARDS"
       description = "Battle of the Beards commences from 8:30am at the Cardiff [Bierkeller](http://thebierkeller.com/cardiff/)"
 
@@ -313,23 +263,20 @@ googleAnalytics = "UA-89910766-1"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Battle of the Beards site & concept</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/stephlocke/battleofthebeards" property="cc:attributionName" rel="cc:attributionURL">Stephanie Locke</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
-	Fork the site on <a href="//github.com/stephlocke/battleofthebeards" title="Battle of the Beards github repo">Github</a>'
+    copyright = '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Battle of the Beards site & concept</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/stephlocke/battleofthebeards" property="cc:attributionName" rel="cc:attributionURL">Stephanie Locke</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>Fork the site on <a href="//github.com/stephlocke/battleofthebeards" title="Battle of the Beards github repo">Github</a>'
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "//twitter.com/battlingbeards"
-	  
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "//facebook.com/battlingbeards"
+  [[params.footer.social]]
+    icon = "fa-twitter"
+    link = "//twitter.com/battlingbeards"
 
-    [[params.footer.quicklinks]]
-      text = "Code of Conduct"
-      link = "codeofconduct"
-	[[params.footer.quicklinks]]
-	  link="https://battleofthebeards.eventbrite.co.uk"
-	  text="Registration"
-    [[params.footer.quicklinks]]
-      link = "http://sessionize.com/battleofthebeards"
-	  text="Talk submission"
+  [[params.footer.social]]
+    icon = "fa-facebook"
+    link = "//facebook.com/battlingbeards"
+
+  [[params.footer.quicklinks]]
+    text = "Code of Conduct"
+    link = "codeofconduct"
+
+  [[params.footer.quicklinks]]
+    link="https://battleofthebeards.eventbrite.co.uk"
+    text="Registration"

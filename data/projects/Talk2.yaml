@@ -1,10 +1,10 @@
 modalID: 2
-title: Making a Men's Health Data Viz...
+title: JS Calendars - The Long Way
 subtitle: .
 date: 2014-07-05
 img: roundicons.png
-preview: Minimal Beard White Square Alt.png
-client: Paul Brennan
+preview: alan-lavender.jpeg
+client: Alan Lavender
 clientLink: "#"
 category: Coding
-description: I would like to discuss the feasibility of generating a data visualisation that would help inspire us all (men & women) to change any possible bad habits we have in a more positive direction. I am thinking that the visualisation would allows us to explore the effects our habits are having on our life expectancy and would allow us to identify what change would bring the greatest benefit. Some variations on this theme are possible.... 
+description: Build your own calendar app using JavaScript, with a bit of HTML/CSS. This MVP is coded from scratch using Vanilla JS, no plugins. What's the Short Way? It's to use Google Calendars. But we don't do that, do we?
