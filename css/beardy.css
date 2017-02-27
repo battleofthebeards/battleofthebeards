@@ -85,6 +85,20 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     border-color: #fe8c17;
     background-color: #fe8c17;
+    text-transform: none;
+    padding: 1rem 2rem;
+    font-weight: normal;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;    
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
 }
 
 .btn-xl.disabled,
@@ -286,10 +300,9 @@ static .staticbody {
     }
 }
 
-
 /* Contact section */
 section#contact {
-    background-color: #fe8c17;
+    background-color: v
 }
 
 /*beardy battlers */
@@ -304,4 +317,77 @@ p.ps{
 	font-style: italic;
 	padding-top: 50px;
 	align: center;
+}
+
+/* Talks */
+.Talks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.Talk {
+    flex: 0 1 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+    background: #f7f7f7;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.Talk:hover {
+    text-decoration: none;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+
+.Talk-image {
+    border-radius: 50%;
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    margin-right: 1rem;
+    border: 0.5rem solid #fe8c17;
+}
+
+.Talk-title {
+    flex: 1;
+}
+
+.Talk-title h4 {
+    text-transform: none;
+    color: #222;
+    font-weight: normal;
+}
+
+@media(min-width: 400px) {
+    .Talk {
+        flex: 0 1 96%;
+    }
+    .Talk-image {
+        width: 120px;
+    }
+}
+
+@media(min-width: 700px) {
+    .Talk {
+        flex: 0 1 calc(96% / 2);
+    }
+}
+
+@media(min-width: 1000px) {
+    .Talk {
+        flex: 0 1 calc(96% / 3);
+    }
+}
+
+
+/* Layout Fixes */
+section h3.section-subheading {
+    margin-bottom: 5rem;
+}
+
+section {
+    padding: 6rem 0 2rem;
 }
