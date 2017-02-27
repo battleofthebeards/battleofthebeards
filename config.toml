@@ -90,8 +90,8 @@ googleAnalytics = "UA-89910766-1"
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Speakers"
-    subtitle = "Meet our speakers"
+    title = "Talks"
+    subtitle = "Check out the talks from awesome people"
 
     [params.portfolio.modal]
       client = "Title"
@@ -277,6 +277,10 @@ googleAnalytics = "UA-89910766-1"
     text = "Code of Conduct"
     link = "codeofconduct"
 
+  [[params.footer.quicklinks]]
+    text = "About Battle of The Beards"
+    link = "AboutEvents"
+	
   [[params.footer.quicklinks]]
     link="https://battleofthebeards.eventbrite.co.uk"
     text="Registration"
