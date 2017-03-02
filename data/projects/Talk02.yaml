@@ -1,7 +1,9 @@
-modalID: 9
+modalID: 2
 title: "Up the Stack: A brief history of infrastructure abstraction"
 subtitle: .
 date: 2014-07-05
+startsAt: 10:10
+endsAt: 10:40
 img: roundicons.png
 preview: matt-willsher.jpeg
 client: Matt Willsher

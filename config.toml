@@ -26,6 +26,7 @@ googleAnalytics = "UA-89910766-1"
     brand = "Battle of the Beards"
     services = "About"
     portfolio = "Talks"
+    schedule = "Schedule"
     about = "The plan"
     team = "People"
     contact = "Help"
@@ -83,13 +84,14 @@ googleAnalytics = "UA-89910766-1"
       title = "Lots of fun"
       description = "As well as presentations in the main arena during the day, there'll be lots of side things going on throughout the day and into the evening including Nerd Bring'n'Buy, game tournaments, and more"
 
+# Portfolio section
+  [params.schedule]
+    enable = true
+    title = "Schedule"
+
   # Portfolio section
   [params.portfolio]
     enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
     title = "Talks"
     subtitle = "Check out the talks from awesome people"
 

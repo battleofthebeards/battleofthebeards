@@ -1,7 +1,9 @@
-modalID: 3
+modalID: 6
 title: "Thinking Securely"
 subtitle: .
 date: 2014-07-05
+startsAt: 13:05
+endsAt: 13:35
 img: roundicons.png
 preview: john-martin.jpeg
 client: John Martin
