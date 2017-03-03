@@ -4,11 +4,10 @@ header {
     background-position: center left;
 	}
 
-@media (min-width: 768px) {
-    .navbar-default {
-        background: rgba(13.3%, 13.3%, 13.3%, 0.6);
-        padding: 10px 0;
-    }
+.navbar-default {
+    border-color: transparent;
+    background-color: white;
+	padding: 5px;
 }
 
 @media (min-width: 768px) {
@@ -17,17 +16,23 @@ header {
     }
 }
 
+header{	
+		background-image: url(../img/Header-BG.png);
+}
+
+
 @media (min-width: 768px) {
     header .intro-text .intro-lead-in {
         font-size: 32px;
         font-style: normal;
         text-align: left;
-        text-shadow: 1px 1px #666;
+		color: white;
     }
 header .intro-text {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 200px;
     text-align: left;
+	color: white;
 }
 header .intro-text .intro-heading {
     margin-bottom: 50px;
@@ -36,7 +41,7 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 1.1em;
     text-align: left;
-    text-shadow: 1px 1px #666;
+	color: white;
 }
 }
 
@@ -295,8 +300,8 @@ static .staticbody {
 /* Widths and paddings */
 @media(min-width: 768px) {
     header .intro-text {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 200px;
     }
 }
 
@@ -436,4 +441,83 @@ section h3.section-subheading {
 
 section {
     padding: 6rem 0 2rem;
+}
+
+/* Button neuveau */
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: #fe8c17;
+	background: none;
+	background-color: white;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 4 */
+.btn-4 {
+	border-radius: 50px;
+	border: 3px solid #fff;
+	overflow: hidden;
+}
+
+.btn-4:active {
+	border-color: #17954c;
+	color: #17954c;
+}
+
+.btn-4:hover {
+	color: white;
+	background: none;
+	background-color: #fe8c17;
+	border: 3px solid #fff;
+}
+
+.btn-4:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-4:active:before {
+	color: #17954c;
+}
+
+/* Button 4a */
+.btn-4a:before {
+	left: 130%;
+	top: 0;
+}
+
+.btn-4a:hover:before {
+	left: 20%;
+}
+.icon-arrow-right:before {
+	content: "\e00d";
 }
