@@ -27,7 +27,7 @@ googleAnalytics = "UA-89910766-1"
     services = "About"
     portfolio = "Talks"
     schedule = "Schedule"
-    team = "People involved"
+    team = "People"
     contact = "Get involved"
 
 	[[menu.postpend]]
