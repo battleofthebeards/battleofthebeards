@@ -383,6 +383,52 @@ p.ps{
 }
 
 
+/* Schedule */
+.Schedule {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+.ScheduleItem {
+    flex: 0 1 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 1rem;
+    text-decoration: none;
+    border-left: 0.5rem solid gray;
+    border-bottom: 0.5rem solid #f7f7f7;
+    border-right: 0.5rem solid #f7f7f7;
+}
+
+.ScheduleItem:first-of-type {
+    border-top: 0.5rem solid #f7f7f7;
+}
+
+.ScheduleItem:hover {
+    border-bottom-color: black;
+}
+
+.ScheduleItem-time {
+  margin-right: 1.5rem;
+  color: gray;
+}
+
+.ScheduleItem-time p {
+    margin: 0;
+}
+
+.ScheduleItem-title {
+    flex: 1;
+    text-transform: none;
+    color: #222;
+    font-weight: normal;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
 /* Layout Fixes */
 section h3.section-subheading {
     margin-bottom: 5rem;
