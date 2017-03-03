@@ -27,9 +27,8 @@ googleAnalytics = "UA-89910766-1"
     services = "About"
     portfolio = "Talks"
     schedule = "Schedule"
-    about = "The plan"
-    team = "People"
-    contact = "Help"
+    team = "People involved"
+    contact = "Get involved"
 
 	[[menu.postpend]]
 	  url="https://battleofthebeards.eventbrite.co.uk"
