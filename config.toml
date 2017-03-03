@@ -16,6 +16,7 @@ googleAnalytics = "UA-89910766-1"
   # Link custom assets relative to /static
   custom_css = ["css/beardy.css"]
   custom_js  = []
+  favicon = "favicon.ico"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
