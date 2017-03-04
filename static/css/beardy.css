@@ -362,7 +362,7 @@ p.ps {
 .Talk-title h4 {
     text-transform: none;
     color: #222;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 @media(min-width: 400px) {
