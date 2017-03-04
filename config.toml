@@ -9,7 +9,7 @@ googleAnalytics = "UA-89910766-1"
 
 [params]
   name = "Battle of the Beards"
-  description = "29 March 2017: A fun day of tech talks @ the Cardiff Bierkeller and raising awareness of male suicide."
+  description = "29 March 2017: A fun day of tech talks @ the Cardiff Bierkeller and raising awareness of male suicide. PS No beard required!"
 
   email = "steph@itsalocke.com"
 
@@ -57,31 +57,31 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "When?"
-      description = "29 March 2017, doors opening at 8:30am"
+      description = "29 March 2017, doors opening at 8:30am. This weekday 9 to 5 conference means no additional child-care costs or giving up your weekend."
 	  
     [[params.services.row.list]]
       icon = "fa-map-marker"
       title = "Where?"
-      description = "The event will be taking place at the Cardiff [Bierkeller](http://thebierkeller.com/cardiff/)"
+      description = "The event will be taking place at the Cardiff [Bierkeller](http://thebierkeller.com/cardiff/), so convenient in case you have to pop back to the office."
 	  
     [[params.services.row.list]]
       icon = "fa-gbp"
       title = "Low cost"
-      description = "[Tickets](//battleofthebeards.eventbrite.co.uk) are £15 including food and drinks, with optional donations"
+      description = "[Tickets](//battleofthebeards.eventbrite.co.uk) are £15 including breakfast, lunch, and refreshments. Add a donation to support our chosen charity."
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
-      title = "Informative"
-      description = "The [talks](#portfolio) cover the breadth of IT, and are introductory or widely applicable to anyone in tech."
+      title = "Breadth is the new black"
+      description = "Our bearded wonders are giving [talks](#portfolio) that everyone can get something out of. Learn about infrastructure, software craftmanship, data visualisation, and front-end coding. Come learn a little about a lot!"
 
     [[params.services.row.list]]
       icon = "fa-heart"
-      title = "Doing good"
-      description = "Attend to have a good time together, and raise funds that will support the [CALM](https://www.thecalmzone.net/), a male suicide awareness and prevention charity, in offering vital emergency counselling services to those in need"
+      title = "Do something good"
+      description = "Attend to have a good time and raise funds that will support [CALM](https://www.thecalmzone.net/), a male suicide awareness and prevention charity. Your support will help them offer vital emergency counselling services."
 
     [[params.services.row.list]]
       icon = "fa-group"
-      title = "Lots of fun"
+      title = "Have some fun"
       description = "As well as presentations in the main arena during the day, there'll be lots of side things going on throughout the day and into the evening including Nerd Bring'n'Buy, game tournaments, and more"
 
 # Portfolio section
