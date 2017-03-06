@@ -205,15 +205,6 @@ googleAnalytics = "UA-89910766-1"
       ]
 	  	  
 	  [[params.team.members]]
-      img = "mikeodlin.jpg"
-      name = "Mike Odlin"
-      position = "Donating time"
-      social = [
-        ["fa-twitter", "//twitter.com/mikeodlin"],
-        ["fa-home", "//wordraising.co.uk"]
-      ]
-	  
-	  [[params.team.members]]
       img = "pilipala.jpg"
       name = "Pili-pala"
       position = "Donating time"
@@ -222,6 +213,15 @@ googleAnalytics = "UA-89910766-1"
         ["fa-home", "//pilipalaagencyweb.wordpress.com"],
 		["fa-instagram", "//instagram.com/pilipala.agency"]
       ]
+	  [[params.team.members]]
+      img = "mikeodlin.jpg"
+      name = "Mike Odlin"
+      position = "Donating time"
+      social = [
+        ["fa-twitter", "//twitter.com/mikeodlin"],
+        ["fa-home", "//wordraising.co.uk"]
+      ]
+	  
 	  
 	  [[params.team.members]]
       img = "matt.jpg"
@@ -240,14 +240,7 @@ googleAnalytics = "UA-89910766-1"
       social = [
         ["fa-twitter", "//twitter.com/SQLDiplomat"]
       ]
-
-	  [[params.team.members]]
-      img = "paul-brennan.jpeg"
-      name = "Paul Brennan"
-      position = "Speaking"
-      social = [
-      ]
-
+	  
 	  [[params.team.members]]
       img = "patrick-barry.jpeg"
       name = "Patrick Barry"
@@ -271,6 +264,12 @@ googleAnalytics = "UA-89910766-1"
       ]
 
 	  [[params.team.members]]
+      img = "matt-willsher.jpeg"
+      name = "Matt Willsher"
+      position = "Speaking"
+      social = [
+      ]
+	  [[params.team.members]]
       img = "rob-sewell.jpeg"
       name = "Rob Sewell"
       position = "Speaking"
@@ -280,17 +279,21 @@ googleAnalytics = "UA-89910766-1"
       ]
 
 	  [[params.team.members]]
+      img = "paul-brennan.jpeg"
+      name = "Paul Brennan"
+      position = "Speaking"
+      social = [
+        ["fa-twitter", "//twitter.com/brennanpcardiff"]
+      ]
+
+
+
+	  [[params.team.members]]
       img = "james-harvey.jpeg"
       name = "James Harvey"
       position = "Speaking"
       social = [
-      ]
-
-	  [[params.team.members]]
-      img = "matt-willsher.jpeg"
-      name = "Matt Willsher"
-      position = "Speaking"
-      social = [
+        ["fa-twitter", "//twitter.com/blockeight"]
       ]
 
   # Client section
