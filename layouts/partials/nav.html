@@ -23,6 +23,16 @@
             <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
           </li>
         {{ end }}
+        {{ if .Site.Params.services.enable }}
+          <li>
+            <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
+          </li>
+        {{ end }}
+        {{ if .Site.Params.eventbrite.enable }}
+          <li>
+            <a class="page-scroll" href="#eventbrite">{{ with .Site.Params.navigation.eventbrite }}{{ . | markdownify }}{{ end }}</a>
+          </li>
+        {{ end }}
 
         {{ if .Site.Params.portfolio.enable }}
           <li>
@@ -37,11 +47,6 @@
         {{ end }}
 
 
-        {{ if .Site.Params.services.enable }}
-          <li>
-            <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
-          </li>
-        {{ end }}
 
 
         {{ if .Site.Params.team.enable }}
