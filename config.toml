@@ -72,7 +72,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Breadth is the new black"
-      description = "Our bearded wonders are giving [talks](#portfolio) that everyone can get something out of. Learn about infrastructure, software craftmanship, data visualisation, and front-end coding. Come learn a little about a lot!"
+      description = "Our (mostly) bearded wonders are giving [talks](#portfolio) that everyone can get something out of. Learn about infrastructure, software craftmanship, data visualisation, and front-end coding. Come learn a little about a lot!"
 
     [[params.services.row.list]]
       icon = "fa-heart"
@@ -87,7 +87,7 @@ googleAnalytics = "UA-89910766-1"
    [[params.services.row.list]]
       icon = "fa-question"
       title = "Why charge?"
-      description = "We're charging a ticket price that literally just covers the cost of event (£15 per person). By charging people, we don't need sponsors and we don't waste any money due to no-shows. By giving people the option to add donations, everyone can give what they'd like. Keeping these seperate means that any donations go to CALM and don't go towards covering costs."
+      description = "We're charging a ticket price that literally just covers the cost of event (£15 per person). By giving people the option to add donations, everyone can give what they'd like. And by keeping these seperate any donations go directly to CALM and don't go towards covering costs."
    
    [[params.services.row.list]]
       icon = "fa-question"
@@ -97,7 +97,7 @@ googleAnalytics = "UA-89910766-1"
    [[params.services.row.list]]
       icon = "fa-question"
       title = "Do I need a beard?"
-      description = "**Nope!** Speakers need a beard, real or artificial, for the funsies but attendees need only bring themselves along. We're committed to a fun event, not a bearded one. We want to ensure everyone has a good time and there will be a [Code of Conduct](codeofconduct) in place."
+      description = "**Nope!** Speakers need a beard, real or artificial, for the funsies, but attendees need only bring themselves along. We're committed to a fun event, not a bearded one. We want to ensure everyone has a good time and there will be a [Code of Conduct](codeofconduct) in place."
 	
 # Portfolio section
   [params.schedule]
