@@ -57,7 +57,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "When?"
-      description = "29 March 2017, doors opening at 8:30am. This weekday 9 to 5 conference means no additional child-care costs or giving up your weekend."
+      description = "29 March 2017, doors opening at 8:30am."
 	  
     [[params.services.row.list]]
       icon = "fa-map-marker"
@@ -66,8 +66,8 @@ googleAnalytics = "UA-89910766-1"
 	  
     [[params.services.row.list]]
       icon = "fa-gbp"
-      title = "Low cost"
-      description = "[Tickets](//battleofthebeards.eventbrite.co.uk) are £15 including breakfast, lunch, and refreshments. Add a donation to support our chosen charity."
+      title = "How much?"
+      description = "[Tickets](#eventbrite) are £15 to cover costs, with the option to add a donation to [CALM](https://www.thecalmzone.net/)."
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
@@ -83,7 +83,22 @@ googleAnalytics = "UA-89910766-1"
       icon = "fa-group"
       title = "Have some fun"
       description = "As well as presentations in the main arena during the day, there'll be lots of side things going on throughout the day and into the evening including Nerd Bring'n'Buy, game tournaments, and more"
-
+   
+   [[params.services.row.list]]
+      icon = "fa-question"
+      title = "Why charge?"
+      description = "We're charging a ticket price that literally just covers the cost of event (£15 per person). By charging people, we don't need sponsors and we don't waste any money due to no-shows. By giving people the option to add donations, everyone can give what they'd like. Keeping these seperate means that any donations go to CALM and don't go towards covering costs."
+   
+   [[params.services.row.list]]
+      icon = "fa-question"
+      title = "Why Battle of the Beards?"
+      description = "Steph, our lead organiser, has been organising events for more than 5 years. She wanted to spice things up a bit and keep her user group events interesting. Battle of the Beards was one of the crazy ideas she came up with and launched. It's been running for years but this is the first time as a conference. Read more in our [History](AboutEvents)."
+	  
+   [[params.services.row.list]]
+      icon = "fa-question"
+      title = "Do I need a beard?"
+      description = "**Nope!** Speakers need a beard, real or artificial, for the funsies but attendees need only bring themselves along."
+	
 # Portfolio section
   [params.schedule]
     enable = true
