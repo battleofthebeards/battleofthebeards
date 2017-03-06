@@ -27,15 +27,11 @@ googleAnalytics = "UA-89910766-1"
     brand = "Battle of the Beards"
     services = "About"
     portfolio = "Talks"
-	eventbrite = "Quick register"
+	eventbrite = "Register"
     schedule = "Schedule"
     team = "People"
     contact = "Get involved"
 
-	[[menu.postpend]]
-	  url="https://battleofthebeards.eventbrite.co.uk"
-	  name="Register"
-	  weight = 10
 
   # Hero section
   [params.hero]
