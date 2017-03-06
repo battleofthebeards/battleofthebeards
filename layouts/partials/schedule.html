@@ -7,8 +7,8 @@
       </div>
     </div>
     <div class="Schedule">
-      {{ range .Site.Data.projects }}
-      <div class="ScheduleItem">
+      {{ range sort .Site.Data.projects "startsAt" "asc" }}
+      <div class="ScheduleItem {{ if ne .talk true }}ScheduleItem--service{{ end }}">
         <div class="ScheduleItem-time">
           <p>{{ .startsAt }}</p>
           <p>{{ .endsAt }} </p>

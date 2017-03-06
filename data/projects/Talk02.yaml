@@ -10,3 +10,4 @@ client: Matt Willsher
 clientLink: "#"
 category: Coding
 description: A history on infrastructure provisioning from bare metal to VMs to containers and a review of current practice for each area and where the pain points are for each.
+talk: true

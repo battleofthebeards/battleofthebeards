@@ -9,4 +9,5 @@ preview: john-martin.jpeg
 client: John Martin
 clientLink: "#"
 category: Infrastructure
-description: With more and more of us working remotely or on the road, it is important to think about security precautions. Here we will discuss things like where and how to work in public places. Also, looking at things you can do to help protect the information on your devices from prying eyes, both from a technical and non-technical perspective.jo
+description: With more and more of us working remotely or on the road, it is important to think about security precautions. Here we will discuss things like where and how to work in public places. Also, looking at things you can do to help protect the information on your devices from prying eyes, both from a technical and non-technical perspective.
+talk: true

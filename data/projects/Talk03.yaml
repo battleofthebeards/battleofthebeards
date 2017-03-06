@@ -10,3 +10,4 @@ client: Alan Lavender
 clientLink: "#"
 category: Coding
 description: Build your own calendar app using JavaScript, with a bit of HTML/CSS. This MVP is coded from scratch using Vanilla JS, no plugins. What's the Short Way? It's to use Google Calendars. But we don't do that, do we?
+talk: true

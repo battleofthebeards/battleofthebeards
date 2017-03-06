@@ -172,7 +172,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.team.members]]
       img = "DaveParr.jpg"
       name = "David Parr"
-      position = "Donating time"
+      position = "Donating time, Speaking"
       social = [
         ["fa-twitter", "//twitter.com/biomicron"],
         ["fa-github", "//github.com/davergp"],
@@ -226,13 +226,73 @@ googleAnalytics = "UA-89910766-1"
 	  [[params.team.members]]
       img = "matt.jpg"
       name = "Matt McCabe"
-      position = "Donating time"
+      position = "Donating time, Speaking"
       social = [
         ["fa-twitter", "//twitter.com/mttmccb"],
         ["fa-home", "//mttmccb.net/"],
         ["fa-github", "//github.com/mttmccb"]
       ]
-	  
+
+	  [[params.team.members]]
+      img = "john-martin.jpeg"
+      name = "John Martin"
+      position = "Speaking"
+      social = [
+        ["fa-twitter", "//twitter.com/SQLDiplomat"]
+      ]
+
+	  [[params.team.members]]
+      img = "paul-brennan.jpeg"
+      name = "Paul Brennan"
+      position = "Speaking"
+      social = [
+      ]
+
+	  [[params.team.members]]
+      img = "patrick-barry.jpeg"
+      name = "Patrick Barry"
+      position = "Speaking"
+      social = [
+      ]
+
+	  [[params.team.members]]
+      img = "rod-chapman.jpeg"
+      name = "Rod Chapman"
+      position = "Speaking"
+      social = [
+      ]
+
+
+	  [[params.team.members]]
+      img = "alan-lavender.jpeg"
+      name = "Alan Lavender"
+      position = "Speaking"
+      social = [
+      ]
+
+	  [[params.team.members]]
+      img = "rob-sewell.jpeg"
+      name = "Rob Sewell"
+      position = "Speaking"
+      social = [
+        ["fa-twitter", "//twitter.com/sqldbawithabeard"],
+        ["fa-home", "//sqldbawithabeard.com/"]
+      ]
+
+	  [[params.team.members]]
+      img = "james-harvey.jpeg"
+      name = "James Harvey"
+      position = "Speaking"
+      social = [
+      ]
+
+	  [[params.team.members]]
+      img = "matt-willsher.jpeg"
+      name = "Matt Willsher"
+      position = "Speaking"
+      social = [
+      ]
+
   # Client section
     [params.clients_list]
       enable = false

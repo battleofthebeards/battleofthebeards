@@ -10,3 +10,4 @@ client: Rod Chapman
 clientLink: "#"
 category: Infrastructure
 description: This session will present a whirlwind tour of what so-called "static analysis" can do for you coding. There are lots of tool, most of which make outlandish claims about their abilities to make your code better, find bugs, wash whiter, and make you a better person. We'll touch on what the tools can really do, their limitations and what's wrong with almost all of today's programming languages.
+talk: true

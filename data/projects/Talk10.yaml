@@ -10,3 +10,4 @@ client: David Parr
 clientLink: "#"
 category: Coding
 description: GitHub has built increasing support for the Jekyll static blog generator system into it's platform. Starting with a brief introduction of the benefits of a free blogging and web hosting platform, the session will also be a walk through of how to set up a GitHub pages blog from scratch, including a brief step into liquid tags and YAML.
+talk: true
