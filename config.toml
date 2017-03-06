@@ -27,6 +27,7 @@ googleAnalytics = "UA-89910766-1"
     brand = "Battle of the Beards"
     services = "About"
     portfolio = "Talks"
+	eventbrite = "Quick register"
     schedule = "Schedule"
     team = "People"
     contact = "Get involved"
@@ -43,6 +44,9 @@ googleAnalytics = "UA-89910766-1"
     title = 'Help fight male suicide at the Battle of the Beards'
     subtitle = "A tech conference for charity<br>Cardiff | 29 March 2017"
     buttonText = "Tell me more"
+  [params.eventbrite]
+    enable = true
+    title = "Register"
 
 
   # Services section

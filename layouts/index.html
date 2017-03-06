@@ -10,6 +10,10 @@
     {{ if .Site.Params.portfolio.enable }}
       {{ partial "portfolio.html" . }}
     {{ end }}
+	
+    {{ if .Site.Params.eventbrite.enable }}
+      {{ partial "eventbrite.html" . }}
+    {{ end }}
     
     {{ if .Site.Params.schedule.enable }}
       {{ partial "schedule.html" . }}
