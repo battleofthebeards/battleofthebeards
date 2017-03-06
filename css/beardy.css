@@ -397,23 +397,32 @@ p.ps {
     max-width: 50rem;
 }
 
+.ScheduleItem:first-of-type {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.ScheduleItem:last-of-type {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
 .ScheduleItem {
     flex: 0 1 100%;
     display: flex;
     align-items: center;
     padding: 0.25rem 1rem;
     text-decoration: none;
-    border-left: 0.5rem solid gray;
-    border-bottom: 0.5rem solid #f7f7f7;
-    border-right: 0.5rem solid #f7f7f7;
+    border-left: 0.5rem solid #fe8c17;
+    border-top: 1px solid #fe8c17;
+    border-bottom: 1px solid #fe8c17;
+    border-right: 1px solid #fe8c17;
+    margin-bottom: -1px;
 }
 
-.ScheduleItem:first-of-type {
-    border-top: 0.5rem solid #f7f7f7;
-}
-
-.ScheduleItem:hover {
-    border-bottom-color: black;
+.ScheduleItem--service {
+    border-left-color: #333;
+    background: #f7f7f7;
 }
 
 .ScheduleItem-time {
@@ -423,6 +432,8 @@ p.ps {
 
 .ScheduleItem-time p {
     margin: 0;
+    line-height: 1.5;
+    font-size: 1.2rem;
 }
 
 .ScheduleItem-title {
