@@ -82,7 +82,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-group"
       title = "Have some fun"
-      description = "As well as presentations in the main arena during the day, there'll be lots of side things going on throughout the day and into the evening including Nerd Bring'n'Buy, game tournaments, and more"
+      description = "As well as presentations in the main arena during the day, there'll be lots of side things going on throughout the day and into the evening including [Gadget Jumble](gadgetJumble), game tournaments, and more"
    
    [[params.services.row.list]]
       icon = "fa-question"
@@ -181,7 +181,7 @@ googleAnalytics = "UA-89910766-1"
 
     [[params.team.members]]
       img = "jem.jpg"
-      name = "Jeremey North"
+      name = "Jeremy North"
       position = "Donating time"
       social = [
         ["fa-twitter", "//twitter.com/jemnorth"],
@@ -352,6 +352,10 @@ googleAnalytics = "UA-89910766-1"
   [[params.footer.social]]
     icon = "fa-facebook"
     link = "//facebook.com/battlingbeards"
+
+  [[params.footer.quicklinks]]
+    text = "Gadget Jumble"
+    link = "gadgetJumble"
 
   [[params.footer.quicklinks]]
     text = "Code of Conduct"

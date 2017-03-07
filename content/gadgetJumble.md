@@ -23,4 +23,4 @@ Come on, you now you had a good reason for buying that veeblefetzer to interface
 Make a clean break with all your (useable and functional) detritus and use it to raise money for this great cause, with all money raised from the sales will go to the supported charity.
 Don't forget though, even if you've donated items, you can still buy other shiny-shiny tech from our helpful volunteers!
 
-All we ask is that items are NOT in a dangewrous state and that the lucky purchasers don't expect any kind of warrantee. Donations accepted on the day at the Bierkeller and you'll be able to purchase throughout the day.
+All we ask is that items are NOT in a dangerous state and that the lucky purchasers don't expect any kind of warrantee. Donations accepted on the day at the Bierkeller and you'll be able to purchase throughout the day.
