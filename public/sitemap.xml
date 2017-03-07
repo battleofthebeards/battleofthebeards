@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://battleofthebeards.info/gadgetJumble/</loc>
+    <lastmod>2017-03-06T18:08:17+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://battleofthebeards.info/AboutEvents/</loc>
     <lastmod>2017-01-02T16:29:28+00:00</lastmod>
   </url>
@@ -13,7 +18,7 @@
   
   <url>
     <loc>http://battleofthebeards.info/</loc>
-    <lastmod>2017-01-02T16:29:28+00:00</lastmod>
+    <lastmod>2017-03-06T18:08:17+00:00</lastmod>
     <priority>0</priority>
   </url>
   
