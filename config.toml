@@ -296,6 +296,14 @@ googleAnalytics = "UA-89910766-1"
         ["fa-twitter", "//twitter.com/blockeight"]
       ]
 
+	  [[params.team.members]]
+      img = "cpsgroup.png"
+      name = "CPS Group"
+      position = "Donating time"
+      social = [
+        ["fa-home", "//www.cpsgroupuk.com"]
+      ]
+
   # Client section
     [params.clients_list]
       enable = false
