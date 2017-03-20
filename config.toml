@@ -344,10 +344,6 @@ googleAnalytics = "UA-89910766-1"
     link = "//facebook.com/battlingbeards"
 
   [[params.footer.quicklinks]]
-    text = "Gadget Jumble"
-    link = "gadgetJumble"
-
-  [[params.footer.quicklinks]]
     text = "Code of Conduct"
     link = "codeofconduct"
 
