@@ -246,12 +246,6 @@ googleAnalytics = "UA-89910766-1"
       ]
 
 	  [[params.team.members]]
-      img = "matt-willsher.jpeg"
-      name = "Matt Willsher"
-      position = "Speaking"
-      social = [
-      ]
-	  [[params.team.members]]
       img = "rob-sewell.jpeg"
       name = "Rob Sewell"
       position = "Speaking"
@@ -281,9 +275,17 @@ googleAnalytics = "UA-89910766-1"
 	  [[params.team.members]]
       img = "cpsgroup.png"
       name = "CPS Group"
-      position = "Donating time"
+      position = "Donating venue and time"
       social = [
         ["fa-home", "//www.cpsgroupuk.com"]
+      ]
+
+	  [[params.team.members]]
+      img = "andre-melancia.png"
+      name = "Andre Melancia"
+      position = "Speaking"
+      social = [
+        ["fa-twitter", "//twitter.com/andyPT"]
       ]
 
   # Client section
