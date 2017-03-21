@@ -243,6 +243,7 @@ googleAnalytics = "UA-89910766-1"
       name = "Alan Lavender"
       position = "Speaking"
       social = [
+        ["fa-twitter", "//twitter.com/lavenderlens"]
       ]
 
 	  [[params.team.members]]
