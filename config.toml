@@ -288,6 +288,14 @@ googleAnalytics = "UA-89910766-1"
         ["fa-twitter", "//twitter.com/andyPT"]
       ]
 
+	  [[params.team.members]]
+      img = "jan-mulkens.jpg"
+      name = "Jan Mulkens"
+      position = "Speaking"
+      social = [
+        ["fa-twitter", "//twitter.com/janmulkens"]
+      ]
+	  
   # Client section
     [params.clients_list]
       enable = false
