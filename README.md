@@ -31,10 +31,6 @@ hugo
 git add .
 git commit -m "message"
 git push origin master
-cd public
-git add .
-git commit -m "message"
-git push gh-pages HEAD:gh-pages
 ```
 
 What this is doing is:
@@ -43,10 +39,6 @@ What this is doing is:
 * staged those changes `git add .`
 * committing those changes to the current branch `git commit -m "message"`, change message to something sensible
 * pushing that commit to the server `git push origin master`
-* changing to the public directory (where the site it built to) `cd public`
-* staged those changes `git add .`
-* committing those changes to the current branch `git commit -m "message"`, change message to something sensible
-* pushing that commit to the branch to the gh-pages branch, which is the branch github uses for the website `git push gh-pages HEAD:gh-pages`
 
 Learning More
 -------------
