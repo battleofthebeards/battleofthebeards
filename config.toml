@@ -9,7 +9,7 @@ googleAnalytics = "UA-89910766-1"
 
 [params]
   name = "Battle of the Beards"
-  description = "29 March 2017: A day of tech talks online - raising funds to combat male suicide. PS No beard required!"
+  description = " A day of full-stack tech talks - raising funds to combat male suicide. PS No beard required!"
 
   email = "steph@itsalocke.com"
 
@@ -38,7 +38,7 @@ googleAnalytics = "UA-89910766-1"
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = 'Help fight male suicide at the Battle of the Beards'
-    subtitle = "An online tech conference for charity<br>29 March 2017"
+    subtitle = "Last year we raised £1,000 and we've got another event coming soon!"
     buttonText = "Tell me more"
   [params.eventbrite]
     enable = true
