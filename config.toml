@@ -1,15 +1,15 @@
 # Site settings
-baseurl = "https://battleofthebeards.info/"
+baseurl = "https://bobconf.com"
 languageCode = "en-gb"
-title = "Battle of the Beards"
+title = "Bobconf: Battle of the Beards"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-89910766-1"
 
 [params]
-  name = "Battle of the Beards"
-  description = " A day of full-stack tech talks - raising funds to combat male suicide. PS No beard required!"
+  name = "BoB conf"
+  description = " A day of full-stack tech talks - raising funds to combat male suicide"
 
   email = "steph@itsalocke.com"
 
@@ -24,7 +24,7 @@ googleAnalytics = "UA-89910766-1"
 
   # Navigation
   [params.navigation]
-    brand = "Battle of the Beards"
+    brand = "BoB conf"
     services = "About"
     portfolio = "Talks"
 	eventbrite = "Register"
@@ -50,19 +50,19 @@ googleAnalytics = "UA-89910766-1"
     enable = true
     title = "About"
 
-    subtitle = "**If you care about IT stuff and people too then get yourself to The Battle of the Beards at Bierkeller on 29 March 2017 at 8:30am.**<br><br>We're gonna have a fantastic day learning about different IT topics, meeting nifty folks, and letting off a bit of steam. We're gonna be sociable (yes, I know we’re IT people) and have positive human interactions that make a difference in each other’s lives.<br><br>Battle of the Beards started out as a fun user group event, where bristling techies would square off in our very own arena. Our Beardy Battlers would give presentations and winners would be decided based on the quality of their beards and their talks. The crowd went wild (and wanted more)! <br><br>Where our first events had a mere 3 contenders, this year we're upping the ante and there'll be at least 10 contenders! Whether their beard is permanent or just for the day, our Beardy Battlers will be delivering half-hour techie talks that'll be useful and engaging for anyone in IT. Every Beardy Battler will make a difference to your life.<br><br>If you come along you'll make a difference.<br><br>You'll make a difference in the room and to somebody you may never meet. That's because, after we've covered the costs, all proceeds will go to the [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). Supporting CALM means they can provide vital counselling services and save lives.<br><br>In our male dominated industry, we’re likely to be disproportionately affected by suicide. It was the cause of a quarter of all deaths of 20 - 34 year old males in [2014](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/rel/vsob1/mortality-statistics--deaths-registered-in-england-and-wales--series-dr-/2014/sty-what-do-we-die-from.html). That's a sad and uncomfortable fact. <br><br>We need to take care of ourselves and each other. <br><br>So let’s have some fun for a good cause!"
+    subtitle = "**If you care about IT stuff and people too then get yourself to BoB conf**<br><br>We're gonna have a fantastic day learning about different IT topics, meeting nifty folks, and letting off a bit of steam. We're gonna be sociable (yes, I know we’re IT people) and have positive human interactions that make a difference in each other’s lives.<br><br>Battle of the Beards started out as a fun user group event, where bristling techies would square off in our very own arena. Our Beardy Battlers would give presentations and winners would be decided based on the quality of their beards and their talks. The crowd went wild (and wanted more)! <br><br>Where our first events had a mere 3 contenders, in 2017 we had a full day event and raised £1,000 for [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). Supporting CALM means they can provide vital counselling services and save lives.<br><br>In our male dominated industry, we’re likely to be disproportionately affected by suicide. It was the cause of a quarter of all deaths of 20 - 34 year old males in [2014](http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons.gov.uk/ons/rel/vsob1/mortality-statistics--deaths-registered-in-england-and-wales--series-dr-/2014/sty-what-do-we-die-from.html). That's a sad and uncomfortable fact. <br><br>We need to take care of ourselves and each other. <br><br>So let’s have some fun for a good cause!"
     ps = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "29 March 2017<br>Online<br>[Tickets](#eventbrite) are £5, with the option to add a further donation to [CALM](https://www.thecalmzone.net/)."
+      description = TBC"
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Breadth is the new black"
-      description = "Our (mostly) bearded wonders are giving [talks](#portfolio) that everyone can get something out of. Learn about infrastructure, software craftmanship, data visualisation, and front-end coding. Come learn a little about a lot!"
+      description = "Our wonderful speakers are giving [talks](#portfolio) that everyone can get something out of. Learn about infrastructure, software craftmanship, data visualisation, and front-end coding. Come learn a little about a lot!"
 
     [[params.services.row.list]]
       icon = "fa-heart"
@@ -74,12 +74,12 @@ googleAnalytics = "UA-89910766-1"
    [[params.services.row.list]]
       icon = "fa-question"
       title = "Why Battle of the Beards?"
-      description = "Steph, our lead organiser, has been organising events for more than 5 years. She wanted to spice things up a bit and keep her user group events interesting. Battle of the Beards was one of the crazy ideas she came up with and launched. It's been running for years but this is the first time as a conference. Read more in our [History](AboutEvents)."
+      description = "Steph, our lead organiser, has been organising events for more than 5 years. She wanted to spice things up a bit and keep her user group events interesting. Battle of the Beards was one of the crazy ideas she came up with and launched. Read more in our [History](AboutEvents)."
 	  
    [[params.services.row.list]]
       icon = "fa-question"
       title = "Do I need a beard?"
-      description = "**Nope!** Speakers need a beard, real or artificial, for the funsies, but attendees need only bring themselves along. We're committed to a fun event, not a bearded one. We want to ensure everyone has a good time and there will be a [Code of Conduct](codeofconduct) in place."
+      description = "**Nope!** Speakers can sport a beard, real or artificial, for the funsies, but attendees need only bring themselves along. We're committed to a fun event, not a bearded one. We want to ensure everyone has a good time and there will be a [Code of Conduct](codeofconduct) in place."
 	
 # Portfolio section
   [params.schedule]
@@ -107,36 +107,37 @@ googleAnalytics = "UA-89910766-1"
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
+      [[params.about.events]]
+      img = "2.jpg"
+      date = " 15 October  2018"
+      title = "Registration opens"
+      description = "Register for BoB conf and make a difference! It's £150 to cover the costs for the event. You can also add a donation for [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/)."
+      
     [[params.about.events]]
       img = "1.jpg"
-      date = "1 January 2017"
+      date = "1 November 2018"
       title = "Open for talks"
-      description = "Submit your talks today. Donate your time to educate people and help raise awareness of male suicide. Anyone bearded can present - no need for it be a real beard though! [Enter the Battle of the Beards!](//sessionize.com/battleofthebeards)"
+      description = "Submit your talks today. Donate your time to educate people and help raise awareness of male suicide."
 
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "13 January  2017"
-      title = "Registration opens"
-      description = "Register for Battle of the Beards and make a difference! It's £15 to cover the costs for the event. You can also add a donation for [Campaign Against Living Miserably (CALM)](https://www.thecalmzone.net/). [Register now!](https://battleofthebeards.eventbrite.co.uk)"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "15-21 February 2017"
+      date = "1 February 2019"
       title = "Talks selected"
       description = "We will select talks and announce the agenda"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "29 March 2017"
-      title = "BATTLE OF THE BEARDS"
-      description = "Battle of the Beards commences from 8:30am at the Cardiff [Bierkeller](http://thebierkeller.com/cardiff/)"
+      date = "14 March 2019"
+      title = "BOB CONF"
+      description = "The conference is here!"
 
 
   # Team section
   [params.team]
     enable = true
     title = "Key people"
-    subtitle = "People contributing to make Battle of the Beards, and our fight against male suicide, a success!"
+    subtitle = "People contributing to make BoB Conf, and our fight against male suicide, a success!"
     description = "You can get involved too, whether it's by attending, contributing your skills, helping out on the day, or just plain old donating to CALM. You can help us prevent the single biggest killer of young and middle-aged men."
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -170,132 +171,7 @@ googleAnalytics = "UA-89910766-1"
         ["fa-home", "//datris.solutions"]
       ]
 	  
-	  [[params.team.members]]
-      img = "nopicavail.jpg"
-      name = "Fountainhead Technologies"
-      position = "Donating"
-      social = [
-        ["fa-home", "//fountainhead.tech"]
-      ]
-	  
-	  [[params.team.members]]
-      img = "datris-logo.png"
-      name = "Datris"
-      position = "Donating"
-      social = [
-        ["fa-home", "//datris.solutions"]
-      ]
-	  	  
-	  [[params.team.members]]
-      img = "pilipala.jpg"
-      name = "Pili-pala"
-      position = "Donating time"
-      social = [
-        ["fa-twitter", "//twitter.com/pili_pala"],
-        ["fa-home", "//pilipalaagencyweb.wordpress.com"],
-		["fa-instagram", "//instagram.com/pilipala.agency"]
-      ]
-	  [[params.team.members]]
-      img = "mikeodlin.jpg"
-      name = "Mike Odlin"
-      position = "Donating time"
-      social = [
-        ["fa-twitter", "//twitter.com/mikeodlin"],
-        ["fa-home", "//wordraising.co.uk"]
-      ]
-	  
-	  
-	  [[params.team.members]]
-      img = "matt.jpg"
-      name = "Matt McCabe"
-      position = "Donating time, Speaking"
-      social = [
-        ["fa-twitter", "//twitter.com/mttmccb"],
-        ["fa-home", "//mttmccb.net/"],
-        ["fa-github", "//github.com/mttmccb"]
-      ]
 
-	  [[params.team.members]]
-      img = "john-martin.jpeg"
-      name = "John Martin"
-      position = "Speaking"
-      social = [
-        ["fa-twitter", "//twitter.com/SQLDiplomat"]
-      ]
-	  
-	  [[params.team.members]]
-      img = "patrick-barry.jpeg"
-      name = "Patrick Barry"
-      position = "Speaking"
-      social = [
-      ]
-
-	  [[params.team.members]]
-      img = "rod-chapman.jpeg"
-      name = "Rod Chapman"
-      position = "Speaking"
-      social = [
-      ]
-
-
-	  [[params.team.members]]
-      img = "alan-lavender.jpeg"
-      name = "Alan Lavender"
-      position = "Speaking"
-      social = [
-        ["fa-twitter", "//twitter.com/lavenderlens"]
-      ]
-
-	  [[params.team.members]]
-      img = "rob-sewell.jpeg"
-      name = "Rob Sewell"
-      position = "Speaking"
-      social = [
-        ["fa-twitter", "//twitter.com/sqldbawithabeard"],
-        ["fa-home", "//sqldbawithabeard.com/"]
-      ]
-
-	  [[params.team.members]]
-      img = "paul-brennan.jpeg"
-      name = "Paul Brennan"
-      position = "Speaking"
-      social = [
-        ["fa-twitter", "//twitter.com/brennanpcardiff"]
-      ]
-
-
-
-	  [[params.team.members]]
-      img = "james-harvey.jpeg"
-      name = "James Harvey"
-      position = "Speaking"
-      social = [
-        ["fa-twitter", "//twitter.com/blockeight"]
-      ]
-
-	  [[params.team.members]]
-      img = "cpsgroup.png"
-      name = "CPS Group"
-      position = "Donating venue and time"
-      social = [
-        ["fa-home", "//www.cpsgroupuk.com"]
-      ]
-
-	  [[params.team.members]]
-      img = "andre-melancia.png"
-      name = "Andre Melancia"
-      position = "Speaking"
-      social = [
-        ["fa-twitter", "//twitter.com/andyPT"]
-      ]
-
-	  [[params.team.members]]
-      img = "jan-mulkens.jpg"
-      name = "Jan Mulkens"
-      position = "Speaking"
-      social = [
-        ["fa-twitter", "//twitter.com/janmulkens"]
-      ]
 	  
   # Client section
     [params.clients_list]
@@ -359,9 +235,9 @@ googleAnalytics = "UA-89910766-1"
     link = "codeofconduct"
 
   [[params.footer.quicklinks]]
-    text = "About Battle of The Beards"
+    text = "About BoB conf"
     link = "AboutEvents"
 	
   [[params.footer.quicklinks]]
-    link="https://battleofthebeards.eventbrite.co.uk"
+    link="https://bobconf.com"
     text="Registration"
