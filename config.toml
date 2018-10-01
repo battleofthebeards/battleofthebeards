@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://bobconf.com"
+baseurl = "https://bobconf.com/"
 languageCode = "en-gb"
 title = "Bobconf: Battle of the Beards"
 theme = "hugo-agency-theme"
