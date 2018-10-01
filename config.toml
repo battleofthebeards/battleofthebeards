@@ -57,7 +57,7 @@ googleAnalytics = "UA-89910766-1"
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = TBC"
+      description = "TBC"
 	  
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
