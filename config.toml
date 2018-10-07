@@ -26,9 +26,9 @@ googleAnalytics = "UA-89910766-1"
   [params.navigation]
     brand = "BoB conf"
     services = "About"
-    portfolio = "Talks"
+    portfolio = "Last year's talks"
 	eventbrite = "Register"
-    schedule = "Schedule"
+    schedule = "Last year's schedule"
     team = "People"
     contact = "Get involved"
 
